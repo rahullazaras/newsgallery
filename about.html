@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+         body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
+      
+      html {
+        box-sizing: border-box;
+      }
+      
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+      .center 
+      {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+        
+      }
+      
+      
+      .column {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+      }
+      
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 8px;
+      }
+      
+      .about-section {
+        padding: 50px;
+        text-align: center;
+        background-color: #000000;
+        color: white;
+      }
+      
+      .container {
+        padding: 0 16px;
+      }
+      
+      .container::after, .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .title {
+        color: rgb(0, 0, 0);
+      }
+      
+      .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+      }
+      
+      .button:hover {
+        background-color: #000000;
+      }
+      
+      @media screen and (max-width: 650px) {
+        .column {
+          width: 100%;
+          display: block;
+        }
+      }
+    </style>
+   
+</head>
+<body>
+    <div class="about-section">
+        <h1>About Us</h1>
+        <p>Hello Viewers We are The developers of News Gallery</p>
+        <p>Give Your Feedback direcly to the Developers
+        <p>Lets Learn and Grow Together<p>
+      </div>
+      
+      <h2 style="text-align:center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="imgs/1.jpg" alt="1.jpg" style="width:30%" class="center">
+            <div class="container">
+              <h2 style="text-align: center;">Abraham Rahul Lazaras</h2>
+              <p class="title" style="text-align: center;">Founder & Web developer</p>
+              <p style="text-align: center;">Student and a beginner full-stack web developer.</p>
+              <p style="text-align: center;">Rahul@example.com</p>
+              <form action="https://accounts.google.com/">
+              <p><button class="button">Contact</button></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="imgs/3.jpg" alt="3.jpg" style="width:30%" class="center">
+            <div class="container">
+              <h2 style="text-align: center;">Anto Nithin Singh</h2>
+              <p class="title" style="text-align: center;">Art Director</p>
+              <p style="text-align: center;">Student and Beginner in Environment Designer.</p>
+              <p style="text-align: center;">Anto@example.com</p>
+              <form action="https://accounts.google.com/">
+              <p><button class="button">Contact</button></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="imgs/2.JPG" alt="Saravana Kumar" class="center" style="width:30%" > 
+            <div class="container">
+              <h2 style="text-align: center;">Saravana Kumar</h2>
+              <p class="title" style="text-align: center;">Designer</p>
+              <p style="text-align: center;">Student and upcoming Designer.</p>
+              <p style="text-align: center;">Saravana@example.com</p>
+              <form action="https://accounts.google.com/">
+              <p><button class="button">Contact</button></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>    
+</body>
+</html>
+
+
